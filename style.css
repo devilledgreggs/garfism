@@ -31,3 +31,6 @@ footer {
     border: thick double hotpink;
     padding: 1em;
 }
+img {
+    align-items: center;
+}
