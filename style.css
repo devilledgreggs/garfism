@@ -33,3 +33,9 @@ footer {
     border: thick double hotpink;
     padding: 1em;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
