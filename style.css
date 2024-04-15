@@ -8,14 +8,15 @@ body {
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
+    text-decoration: wavy;
 }
 
 h2 {
-    color: blueviolet;
+    color: rgb(38, 21, 21);
 }
 
 p {
-    color: chartreuse;
+    color: rgb(255, 255, 255);
 }
 
 footer {
@@ -30,7 +31,4 @@ footer {
 .box1 {
     border: thick double hotpink;
     padding: 1em;
-}
-img {
-    align-items: center;
 }
