@@ -1,0 +1,33 @@
+/* this is a css style sheet, the syntax for a comment in CSS is different because it's a separate language to HTML */
+/* below I am calling all the different HTML elements that I have used in the page and describing how it should be rendered on screen within the {curly brackets}. */
+body {
+    background: black;
+    color: azure;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+p {
+    color: chartreuse;
+}
+
+footer {
+    position: fixed; bottom: 0em;
+}
+
+/* to call a class put a . before its name */
+.newacronym{
+    color: aquamarine;
+}
+
+.box1 {
+    border: thick double hotpink;
+    padding: 1em;
+}
