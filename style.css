@@ -40,3 +40,14 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+a:link {
+    color: rgb(72, 175, 226);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(206, 30, 30);
+    background-color: transparent;
+    text-decoration: none;
+  }
