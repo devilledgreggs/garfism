@@ -4,19 +4,22 @@ body {
     background: rgb(255, 140, 0);
     color: rgb(255, 255, 255);
     text-align: center;
+    font-family: 'Pirata One';
+    font-size: 25px;
 }
 
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-family:'UnifrakturMaguntia', cursive;
-
-    
+    font-size: 80px;   
 }
 
 h2 {
     color: rgb(38, 21, 21);
     text-align: center;
+    font-family:'Pirata One';
+    font-size: 50px;
 }
 
 p {
@@ -57,5 +60,9 @@ a:link {
     font-family: 'UnifrakturMaguntia';
     src: url(assets/UnifrakturMaguntia-Regular.ttf);
 }
+ @font-face {
+    font-family: 'Pirata One';
+    src: url(assets/PirataOne-Regular.ttf);
+ }
 
  
