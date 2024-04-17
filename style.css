@@ -9,6 +9,8 @@ body {
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
+    font-family:'UnifrakturMaguntia', cursive;
+
     
 }
 
@@ -44,10 +46,16 @@ a:link {
     color: rgb(72, 175, 226);
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
   a:visited {
     color: rgb(206, 30, 30);
     background-color: transparent;
     text-decoration: none;
-  }
+}
+  @font-face {
+    font-family: 'UnifrakturMaguntia';
+    src: url(assets/UnifrakturMaguntia-Regular.ttf);
+}
+
+ 
