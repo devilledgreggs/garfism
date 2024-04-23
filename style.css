@@ -56,6 +56,9 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
+figcaption {
+    font-family: 'UnifrakturMaguntia', cursive;
+}
   @font-face {
     font-family: 'UnifrakturMaguntia';
     src: url(assets/UnifrakturMaguntia-Regular.ttf);
