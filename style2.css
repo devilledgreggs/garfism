@@ -1,0 +1,100 @@
+body {
+    color: rgb(255, 255, 255);
+    background-image: url(assets/angels.PNG);
+    background-repeat: round;
+    text-align: center;
+    font-family: 'Pirata One';
+    font-size: 25px;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:'UnifrakturMaguntia', cursive;
+    font-size: 80px;   
+}
+
+h2 {
+    color: rgb(38, 21, 21);
+    text-align: center;
+    font-family:'Pirata One';
+    font-size: 50px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    position: fixed; bottom: 0em;
+}
+
+/* to call a class put a . before its name */
+.newacronym{
+    color: aquamarine;
+}
+
+.box1 {
+    border: thick double hotpink;
+    padding: 1em;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:link {
+    color: rgb(72, 175, 226);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+  a:visited {
+    color: rgb(206, 30, 30);
+    background-color: transparent;
+    text-decoration: none;
+}
+figcaption {
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+  @font-face {
+    font-family: 'UnifrakturMaguntia';
+    src: url(assets/UnifrakturMaguntia-Regular.ttf);
+}
+ @font-face {
+    font-family: 'Pirata One';
+    src: url(assets/PirataOne-Regular.ttf);
+ }
+ abbr {
+    font-variant: all-small-caps;
+  }
+  
+ /* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: solid rgba(206, 30, 30, 0.417)
+}
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: #fff;
+    background: rgb(255, 140, 0);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
