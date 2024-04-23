@@ -67,5 +67,34 @@ figcaption {
     font-family: 'Pirata One';
     src: url(assets/PirataOne-Regular.ttf);
  }
-
- 
+ abbr {
+    font-variant: all-small-caps;
+  }
+  
+ /* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: solid rgba(206, 30, 30, 0.417)
+}
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: #fff;
+    background: rgb(255, 140, 0);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
