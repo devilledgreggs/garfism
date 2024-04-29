@@ -27,7 +27,14 @@ h2 {
     font-family:'Pirata One';
     font-size: 50px;
 }
+h3 {
+  color:#fff;
+  text-align: center;
+  font-family: 'Pirata One';
+  font-size: 35px;
+  font-weight: initial;
 
+}
 p {
     color: rgb(255, 255, 255);
 }
@@ -95,15 +102,19 @@ figcaption {
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
   #Church {
     background-image: url(assets/window1.PNG);
     background-size: cover;
     width:834px;
     height:1112px;
   }
+
   #Church:hover {
    background-image: url(assets/Windowhover.PNG);
    width:834px;
    height:1112px;
+   transition-delay: .1s;
+   transition-duration: 1s;
   }
   
