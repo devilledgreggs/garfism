@@ -8,6 +8,12 @@ body {
     font-size: 25px;
 }
 
+.body-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -30,32 +36,23 @@ footer {
     position: fixed; bottom: 0em;
 }
 
-/* to call a class put a . before its name */
-.newacronym{
-    color: aquamarine;
-}
-
 .box1 {
     border: thick double hotpink;
     padding: 1em;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 a:link {
     color: rgb(72, 175, 226);
     background-color: transparent;
     text-decoration: none;
 }
   
-  a:visited {
+a:visited {
     color: rgb(206, 30, 30);
     background-color: transparent;
     text-decoration: none;
 }
+
 figcaption {
     font-family: 'UnifrakturMaguntia', cursive;
 }
@@ -98,3 +95,15 @@ figcaption {
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+  #Church {
+    background-image: url(assets/window1.PNG);
+    background-size: cover;
+    width:834px;
+    height:1112px;
+  }
+  #Church:hover {
+   background-image: url(assets/Windowhover.PNG);
+   width:834px;
+   height:1112px;
+  }
+  
