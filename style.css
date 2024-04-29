@@ -27,6 +27,7 @@ h2 {
     font-family:'Pirata One';
     font-size: 50px;
 }
+
 h3 {
   color:#fff;
   text-align: center;
@@ -35,6 +36,7 @@ h3 {
   font-weight: initial;
 
 }
+
 p {
     color: rgb(255, 255, 255);
 }
@@ -63,15 +65,18 @@ a:visited {
 figcaption {
     font-family: 'UnifrakturMaguntia', cursive;
 }
-  @font-face {
+
+@font-face {
     font-family: 'UnifrakturMaguntia';
     src: url(assets/UnifrakturMaguntia-Regular.ttf);
 }
- @font-face {
+
+@font-face {
     font-family: 'Pirata One';
     src: url(assets/PirataOne-Regular.ttf);
  }
- abbr {
+
+abbr {
     font-variant: all-small-caps;
   }
   
@@ -81,7 +86,7 @@ figcaption {
     display: inline-block;
     border-bottom: solid rgba(206, 30, 30, 0.417)
 }
-  
+
   /* Tooltip text */
   .tooltip .tooltiptext {
     visibility: hidden;
