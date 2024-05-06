@@ -9,7 +9,7 @@ body {
 
 h1 {
     color: #ffffff;
-    text-shadow: 0 0 10px #ffaf00;
+    text-shadow:0 0 1px black, 0 0 10px #ffaf00;
     text-align: center;
     font-family:'UnifrakturMaguntia', cursive;
     font-size: 80px;   
@@ -98,7 +98,7 @@ figcaption {
 
 img {
     padding: 0;
-    display: block;
+    display: inline-block;
     margin: 0;
     max-height: 100%;
     max-width: 100%;
