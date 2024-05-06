@@ -29,10 +29,11 @@ h2 {
 }
 
 h3 {
-  color:#fff;
+  color:rgb(181, 4, 4);
   text-align: center;
-  font-family: 'Pirata One';
-  font-size: 35px;
+  text-shadow: 0 0 2px rgb(255, 255, 255);
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 50px;
   font-weight: initial;
 
 }
@@ -52,13 +53,13 @@ footer {
 }
 
 a:link {
-    color: rgb(72, 175, 226);
+    color: rgb(0, 138, 192);
     background-color: transparent;
     text-decoration: none;
 }
   
 a:visited {
-    color: rgb(206, 30, 30);
+    color: rgb(181, 4, 4);
     background-color: transparent;
     text-decoration: none;
 }
