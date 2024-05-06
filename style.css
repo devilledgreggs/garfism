@@ -123,3 +123,7 @@ abbr {
    transition-duration: 1s;
   }
   
+  div { 
+    text-align: center;
+  }
+  
