@@ -8,7 +8,8 @@ body {
 
 
 h1 {
-    color: #ffaf00;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffaf00;
     text-align: center;
     font-family:'UnifrakturMaguntia', cursive;
     font-size: 80px;   
@@ -21,10 +22,11 @@ h2 {
     font-size: 50px;
 }
 h3 {
-  color:#ffaf00;
+  color:#ffffff;
   text-align: center;
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 40px;
+  
 }
 
 p {
@@ -35,21 +37,6 @@ footer {
     position: fixed; bottom: 0em;
 }
 
-/* to call a class put a . before its name */
-.newacronym{
-    color: aquamarine;
-}
-
-.box1 {
-    border: thick double hotpink;
-    padding: 1em;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 a:link {
     color: rgb(72, 175, 226);
     background-color: transparent;
@@ -112,7 +99,17 @@ figcaption {
 img {
     padding: 0;
     display: block;
-    margin: 0 auto;
+    margin: 0;
     max-height: 100%;
     max-width: 100%;
+}
+
+div { 
+  text-align: center;
+}
+
+.scripture-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
