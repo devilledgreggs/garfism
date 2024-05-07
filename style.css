@@ -6,6 +6,7 @@ body {
     text-align: center;
     font-family: 'Pirata One';
     font-size: 25px;
+    cursor: url('assets/cursor.png'),auto;
 }
 
 .body-wrapper {
@@ -24,6 +25,7 @@ h1 {
 h2 {
     color: rgb(38, 21, 21);
     text-align: center;
+    text-shadow:0 0 5px rgba(255, 0, 0, 0.433);
     font-family:'Pirata One';
     font-size: 50px;
 }
@@ -134,3 +136,4 @@ abbr {
     flex-direction: row;
     justify-content: center;
   }
+
