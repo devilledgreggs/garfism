@@ -31,13 +31,27 @@ h2 {
 }
 
 h3 {
-  color:rgb(181, 4, 4);
+  color:#b50404;
   text-align: center;
   text-shadow: 0 0 2px rgb(255, 255, 255);
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 50px;
   font-weight: initial;
 
+}
+
+h4 {
+  color: #ffda7b;
+  text-shadow: 0 0 4px #b50404;
+  font-family:'Pirata One';
+  font-size: 50px;
+}
+
+h5 {
+  color:#b50404;
+  text-shadow: 0 0 4px #ffda7b;
+  font-family:'Pirata One';
+  font-size: 50px;
 }
 
 
@@ -135,5 +149,11 @@ abbr {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .holy {
+    color: #111;
+    background: #ffda7b;
+    box-shadow: 0 0 100px #ffda7b;
   }
 
