@@ -171,3 +171,18 @@ abbr {
   .holycandle:hover {
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+
+  .welcome:hover {
+    transform: scale(2);
+    -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
+   filter: blur(10px);
+   opacity: 0;
+   background-color: #b50404;
+   transition-duration: 1s;
+  }
+
+  .welcome {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
